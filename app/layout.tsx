@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "iku — Home",
   description: "I code stuff.",
+  metadataBase: new URL("https://iku.pet"),
   icons: {
     icon: "/favicon.ico",
   },
