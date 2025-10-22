@@ -5,9 +5,7 @@ export const metadata: Metadata = {
   title: "iku — Home",
   description: "I code stuff.",
   metadataBase: new URL("https://iku.pet"),
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: { icon: "/favicon.ico" },
   openGraph: {
     title: "iku",
     description: "I code stuff.",
@@ -15,7 +13,7 @@ export const metadata: Metadata = {
     siteName: "iku",
     images: [
       {
-        url: "/img/icon.png",
+        url: "https://iku.pet/img/icon.png",
         width: 512,
         height: 512,
         alt: "iku",
@@ -28,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "iku",
     description: "I code stuff.",
-    images: ["/img/icon.png"],
+    images: ["https://iku.pet/img/icon.png"],
   },
 };
 
